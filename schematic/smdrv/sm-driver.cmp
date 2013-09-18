@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10.09.2013 17:21:19
+
+BeginCmp
+TimeStamp = /52038BDC;
+Reference = C1;
+ValeurCmp = 470n;
+IdModule  = C_CERAM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52037FA5;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = C_CERAM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5203890F;
+Reference = C3;
+ValeurCmp = 470n;
+IdModule  = C_CERAM;
+EndCmp
+
+BeginCmp
+TimeStamp = /520387E0;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = C_CERAM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038645;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038662;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038650;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038668;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038656;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /5203866B;
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038659;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /5203866E;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = DO-201AD_v;
+EndCmp
+
+BeginCmp
+TimeStamp = /5208A780;
+Reference = D9;
+ValeurCmp = 3V3;
+IdModule  = DO-41_h;
+EndCmp
+
+BeginCmp
+TimeStamp = /52039A90;
+Reference = LED1;
+ValeurCmp = led_enbl;
+IdModule  = LED_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52039A9B;
+Reference = LED2;
+ValeurCmp = led_clk;
+IdModule  = LED_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52160C30;
+Reference = PIN1;
+ValeurCmp = pin_home;
+IdModule  = PIN_1x1-corn;
+EndCmp
+
+BeginCmp
+TimeStamp = /5204830C;
+Reference = PIN2;
+ValeurCmp = pin_ttl_pwr;
+IdModule  = PIN_2x1-corn;
+EndCmp
+
+BeginCmp
+TimeStamp = /52039732;
+Reference = PIN3;
+ValeurCmp = pin_drv_ctrl;
+IdModule  = PIN_3x1-corn;
+EndCmp
+
+BeginCmp
+TimeStamp = /52048315;
+Reference = PIN4;
+ValeurCmp = term_drv_pwr;
+IdModule  = DG300-5.0-02P-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /52039607;
+Reference = PIN5;
+ValeurCmp = pin_switch_ctrl;
+IdModule  = PIN_3x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52160D8D;
+Reference = PIN6;
+ValeurCmp = pin_rst;
+IdModule  = PIN_1x1-corn;
+EndCmp
+
+BeginCmp
+TimeStamp = /52160C03;
+Reference = PIN7;
+ValeurCmp = pin_sync;
+IdModule  = PIN_1x1-corn;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038D00;
+Reference = PIN8;
+ValeurCmp = term_out_ab;
+IdModule  = DG300-5.0-02P-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038D1B;
+Reference = PIN9;
+ValeurCmp = term_out_cd;
+IdModule  = DG300-5.0-02P-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5208A3D0;
+Reference = PIN10;
+ValeurCmp = osc_src;
+IdModule  = PIN_3x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52160DA8;
+Reference = PIN11;
+ValeurCmp = pin_enbl;
+IdModule  = PIN_1x1-corn;
+EndCmp
+
+BeginCmp
+TimeStamp = /52047BDE;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = RES_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52047BE5;
+Reference = R2;
+ValeurCmp = 470;
+IdModule  = RES_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52038B96;
+Reference = R3;
+ValeurCmp = 22k;
+IdModule  = RES_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52037D7B;
+Reference = R4;
+ValeurCmp = 0,5;
+IdModule  = RES_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52037D81;
+Reference = R5;
+ValeurCmp = 0,5;
+IdModule  = RES_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52159EA2;
+Reference = R6;
+ValeurCmp = 47k;
+IdModule  = RES_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5200F2D1;
+Reference = U1;
+ValeurCmp = L297;
+IdModule  = DIP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /52037CF2;
+Reference = U2;
+ValeurCmp = L298N;
+IdModule  = multiwatt15v;
+EndCmp
+
+EndListe
