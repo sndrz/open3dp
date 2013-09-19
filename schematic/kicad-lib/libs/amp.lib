@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3  Date: 30.08.2013 10:13:54
+#encoding utf-8
+#
+# TDA7294
+#
+DEF TDA7294 U 0 40 Y Y 1 F N
+F0 "U" -250 350 60 H V C CNN
+F1 "TDA7294" -100 -350 60 H V C CNN
+$FPLIST
+ multiwatt15*
+$ENDFPLIST
+DRAW
+S -300 300 300 -300 0 1 0 f
+X st_gnd 1 -400 -50 100 R 50 50 1 1 I
+X in- 2 -400 250 100 R 50 50 1 1 I
+X in+ 3 -400 150 100 R 50 50 1 1 I
+X in_gnd 4 -400 50 100 R 50 50 1 1 I
+X btstrap 6 400 150 100 L 50 50 1 1 I
+X vs+sig 7 400 -250 100 L 50 50 1 1 I
+X vs-sig 8 400 50 100 L 50 50 1 1 I
+X stdby 9 -400 -250 100 R 50 50 1 1 I
+X mute 10 -400 -150 100 R 50 50 1 1 I
+X vs+pwr 13 400 -150 100 L 50 50 1 1 I
+X out 14 400 250 100 L 50 50 1 1 I
+X vs-pwr 15 400 -50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
