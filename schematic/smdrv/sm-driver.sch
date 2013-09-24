@@ -22,7 +22,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Step-motor driver"
-Date "13 sep 2013"
+Date "24 sep 2013"
 Rev "2"
 Comp "open3dp-mk1"
 Comment1 ""
@@ -93,7 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 1300 6050 1400
 Wire Wire Line
-	5400 2950 5400 1200
+	5400 1200 5400 2950
 Connection ~ 4750 3800
 Wire Wire Line
 	2900 3800 4950 3800
@@ -117,7 +117,7 @@ Connection ~ 7200 2550
 Wire Wire Line
 	6700 2350 6700 2550
 Wire Wire Line
-	6700 2550 7200 2550
+	7200 2550 6700 2550
 Connection ~ 6900 1400
 Wire Wire Line
 	6900 1400 6700 1400
@@ -134,7 +134,7 @@ Connection ~ 7750 2850
 Wire Wire Line
 	7750 2350 7750 2850
 Wire Wire Line
-	8700 5200 8700 4350
+	8700 4350 8700 5300
 Wire Wire Line
 	5900 3400 6700 3400
 Wire Wire Line
@@ -146,11 +146,11 @@ Wire Wire Line
 Wire Wire Line
 	9950 3850 9800 3850
 Wire Wire Line
-	9800 3850 9800 3700
+	9800 3700 9800 3850
 Wire Wire Line
 	9950 3350 9700 3350
 Wire Wire Line
-	9700 3350 9700 3500
+	9700 3500 9700 3350
 Wire Wire Line
 	7300 2850 9300 2850
 Connection ~ 8900 2850
@@ -177,7 +177,7 @@ Wire Wire Line
 	8100 3350 8100 3900
 Connection ~ 6300 5100
 Wire Wire Line
-	6450 5100 6150 5100
+	6150 5100 6450 5100
 Wire Wire Line
 	6450 5100 6450 5000
 Wire Wire Line
@@ -186,7 +186,7 @@ Connection ~ 6150 4150
 Wire Wire Line
 	6150 4500 6150 4150
 Wire Wire Line
-	6700 4150 5900 4150
+	5900 4150 6700 4150
 Wire Wire Line
 	5900 3800 6700 3800
 Wire Wire Line
@@ -198,7 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3900 6700 3900
 Wire Wire Line
-	6700 4250 5900 4250
+	5900 4250 6700 4250
 Wire Wire Line
 	6450 4500 6450 4250
 Connection ~ 6450 4250
@@ -217,34 +217,32 @@ Wire Wire Line
 	8500 2850 8500 3050
 Connection ~ 8500 2850
 Wire Wire Line
-	9800 3450 9800 3600
+	9800 3600 9800 3450
 Wire Wire Line
 	9800 3450 9950 3450
 Wire Wire Line
-	9700 3950 9700 3800
+	9700 3800 9700 3950
 Wire Wire Line
 	9700 3950 9950 3950
 Wire Wire Line
 	2400 3250 2250 3250
 Wire Wire Line
-	9700 3500 7650 3500
+	7650 3500 9700 3500
 Wire Wire Line
-	9800 3600 7650 3600
+	7650 3600 9800 3600
 Wire Wire Line
-	9800 3700 7650 3700
+	7650 3700 9800 3700
 Wire Wire Line
-	9700 3800 7650 3800
-Wire Wire Line
-	2600 6950 3400 6950
+	7650 3800 9700 3800
 Connection ~ 7300 2850
 Wire Wire Line
 	7200 1200 7200 3050
 Wire Wire Line
-	7300 3050 7300 1700
+	7300 1700 7300 3050
 Wire Wire Line
-	7300 1700 7500 1700
+	7500 1700 7300 1700
 Wire Wire Line
-	7500 1700 7500 1200
+	7500 1200 7500 1700
 Wire Wire Line
 	7750 2050 7750 1500
 Wire Wire Line
@@ -274,9 +272,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 3800 4750 4500
 Wire Wire Line
-	1750 3800 1500 3800
+	1500 3800 1750 3800
 Wire Wire Line
-	1500 3800 1500 3250
+	1500 3250 1500 3800
 Wire Wire Line
 	1500 3250 1750 3250
 Wire Wire Line
@@ -288,7 +286,7 @@ Wire Wire Line
 	6050 2650 5400 2650
 Connection ~ 5400 2650
 Wire Wire Line
-	5600 2950 5600 1200
+	5600 1200 5600 2950
 Wire Wire Line
 	1300 3550 1500 3550
 Connection ~ 1500 3550
@@ -491,12 +489,12 @@ $EndComp
 $Comp
 L +5V #PWR010
 U 1 1 5204828C
-P 2700 7150
-F 0 "#PWR010" H 2900 7100 60  0001 C CNN
-F 1 "+5V" H 2700 7300 60  0000 C CNN
-F 2 "" H 2700 7150 60  0001 C CNN
-F 3 "" H 2700 7150 60  0001 C CNN
-	1    2700 7150
+P 2600 7150
+F 0 "#PWR010" H 2800 7100 60  0001 C CNN
+F 1 "+5V" H 2600 7300 60  0000 C CNN
+F 2 "" H 2600 7150 60  0001 C CNN
+F 3 "" H 2600 7150 60  0001 C CNN
+	1    2600 7150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -863,7 +861,9 @@ F 3 "" H 5450 3700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 6950 2600 6700
+	2600 6700 2600 7150
 Wire Wire Line
-	2700 6700 2700 7150
+	2700 6950 3400 6950
+Wire Wire Line
+	2700 6700 2700 6950
 $EndSCHEMATC
