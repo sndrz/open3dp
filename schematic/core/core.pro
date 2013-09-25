@@ -1,4 +1,4 @@
-update=25.08.2013 21:49:04
+update=25.09.2013 16:22:36
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -56,18 +56,13 @@ MaxLnkS=3
 ShowRat=0
 ShowMRa=1
 [pcbnew/libraries]
-LibName1=7SEG
-LibName2=BUTTONS
-LibName3=connectors
-LibName4=display_modules
-LibName5=IC
-LibName6=KT
-LibName7=passive
-LibName8=sensors
-LibName9=SMD
-LibName10=speakers
-LibName11=TO
-LibName12=transf
+LibName1=lit/7SEG
+LibName2=lit/CONN
+LibName3=lit/IC
+LibName4=lit/SENS
+LibName5=lit/SMD
+LibName6=lit/TERM
+LibName7=lit/TO
 LibDir=../../../!kicad/packages
 [general]
 version=1

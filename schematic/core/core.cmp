@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 25.08.2013 21:50:33
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 25.09.2013 16:30:26
 
 BeginCmp
 TimeStamp = /52136B76;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = C_CERAM;
 EndCmp
 
 BeginCmp
@@ -78,6 +78,13 @@ IdModule  = SMD_1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /521A46B4;
+Reference = R2;
+ValeurCmp = RES;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /5208DD4B;
 Reference = U1;
 ValeurCmp = ATMEGA16-PU;
@@ -96,6 +103,13 @@ TimeStamp = /5214A4BA;
 Reference = X1;
 ValeurCmp = MMC/SDC;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5242D726;
+Reference = X2;
+ValeurCmp = USBB;
+IdModule  = USBB-1J;
 EndCmp
 
 EndListe
