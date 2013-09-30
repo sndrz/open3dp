@@ -3,3 +3,7 @@ Stepper motor driver PCB
 *** open3dp-mk.1-rev.4-0
 
 I use L297 and L298 ICs to rule single motor. Power supply is +5V for TTL and +36V for motor.
+
+*** open3dp-mk.1-rev.4-1
+
+Optimised routing to remove some links on front layer. Changed holes sizes to be easy drilled.

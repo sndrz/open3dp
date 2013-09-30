@@ -22,7 +22,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Step-motor driver"
-Date "25 sep 2013"
+Date "30 sep 2013"
 Rev "2"
 Comp "open3dp-mk1"
 Comment1 ""
@@ -94,8 +94,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 1200 5400 2950
 Connection ~ 4750 3800
-Wire Wire Line
-	2900 3800 4950 3800
 Wire Wire Line
 	4350 4500 4350 3700
 Wire Wire Line
@@ -879,4 +877,19 @@ Wire Wire Line
 	5900 3900 6050 3900
 Wire Wire Line
 	6550 3900 6700 3900
+$Comp
+L RES R8
+U 1 1 524975EA
+P 3250 3800
+F 0 "R8" H 3250 3900 60  0000 C CNN
+F 1 "0" H 3250 3800 60  0000 C CNN
+F 2 "" H 3250 3800 60  0000 C CNN
+F 3 "" H 3250 3800 60  0000 C CNN
+	1    3250 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 3800 3000 3800
+Wire Wire Line
+	3500 3800 4950 3800
 $EndSCHEMATC
