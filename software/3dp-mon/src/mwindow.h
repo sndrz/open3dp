@@ -20,6 +20,7 @@ private slots:
 	void updateStatusBar();
 	
 private:
+	void createStatusBar();
 	bool exitConfirm();
 }; // class MainWindow
 
