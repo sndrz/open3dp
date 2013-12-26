@@ -1,12 +1,11 @@
 #ifndef __MOTOR_H
 #define __MOTOR_H
 
-char _motor_move_conf[4];
 /*
-*	sssDSSSS
-* Where 'sss' is a steps number; 'D' is direction and 'SSSS' is a movement speed.
+*	111xxxxx
+*	Where 1 is an axe number:
+*		000 - X, 001 - Y, 010 - Z, 100 - H;
 */
-
-void motor_move(char axis);
+void axe_move(char conf);
 
 #endif
