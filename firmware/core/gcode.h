@@ -8,8 +8,8 @@
 *	http://www.gnu.org/licenses/gpl.html
 */
 
-#ifndef __GCODE
-#define __GCODE
+#ifndef __GCODE_H
+#define __GCODE_H
 
 #define	_gcode_status_allow_buffer_read	0
 
