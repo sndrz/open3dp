@@ -8,6 +8,8 @@
 *	http://www.gnu.org/licenses/gpl.html
 */
 
+#include "core.h"
+
 /**
 	@function main
 	@param Nothing
@@ -17,6 +19,6 @@
 
 void main(void){
 
-	
+		init_core();
 
 } // main

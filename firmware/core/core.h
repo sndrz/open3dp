@@ -12,18 +12,34 @@
 #define __CORE_H
 
 /**
-*	A core status register
-*
-*	Contents 01234567, where
-*		0, 1, 2 and 3 -- motor X, Y, Z and H move flags.
+*	Core status register
 */
  
-char _glob_sta;
+char unsigned glob_stat;
 
-#define	_sta_bit_mo_x_mv	0
-#define	_sta_bit_mo_y_mv	1
-#define _sta_bit_mo_z_mv	2
-#define _sta_bit_mo_h_mv	3
+#define	_stat_bit_mo_x_mv	4
+#define _stat_bit_mo_y_mv	5
+#define _stat_bit_mo_z_mv	6
+#define _stat_bit_mo_h_mv	7
+
+/**
+*	Core configuration register
+*/
+
+char unsigned glob_conf;
+
+#define	_conf_bit_buff_full	0
+#define _conf_bit_ask_gc		1
+
+/**
+*	G-code buffer
+*/
+
+#define _gcode_buff_line	20
+#define _gcode_buff_size	10
+
+char gcode_buff[_gcode_buff_line][_gcode_buff_size];
+unsigned char gcode_buff_pos = 0;
 
 /** Pin configuration */
 
@@ -31,18 +47,25 @@ char _glob_sta;
 
 #define _pin_ddr_mo_x	0xff
 #define _pin_prt_mo_x	0xff
-#define	_pin_pin_mo_x 0xff
+#define	_pin_pin_mo_x	0xff
 
 #define _pin_ddr_mo_y	0xff
 #define _pin_prt_mo_y	0xff
-#define	_pin_pin_mo_y 0xff
+#define	_pin_pin_mo_y	0xff
 
 #define _pin_ddr_mo_z	0xff
 #define _pin_prt_mo_z	0xff
-#define	_pin_pin_mo_z 0xff
+#define	_pin_pin_mo_z	0xff
 
 #define _pin_ddr_mo_h	0xff
 #define _pin_prt_mo_h	0xff
-#define	_pin_pin_mo_h 0xff
+#define	_pin_pin_mo_h	0xff
+
+/**	Functions */
+
+void init_core(void);
+void check_fill_buff(void); // I wonder, if we really need this function
+void ask_gc(void);
+void read_gc(void);
 
 #endif
