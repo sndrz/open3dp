@@ -11,12 +11,8 @@
 #ifndef __GCODE_H
 #define __GCODE_H
 
-#define	_gcode_status_allow_buffer_read	0
+/** Functions list */
 
-unsigned char gcode_status;
-
-/** Functions list
-*/
-
+void gcode_parce(void);
 
 #endif

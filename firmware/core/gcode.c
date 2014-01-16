@@ -5,3 +5,7 @@
 
 #include "gcode.h"
 
+void gcode_parce(void){
+
+} // void gcode_parce
+

@@ -11,6 +11,8 @@
 #ifndef __CORE_H
 #define __CORE_H
 
+#include <avr/interrupt.h>
+
 /**
 *	Core status register
 */
@@ -28,7 +30,7 @@ char unsigned glob_stat;
 
 char unsigned glob_conf;
 
-#define	_conf_bit_buff_full	0
+#define	_conf_bit_buff_awr		0
 #define _conf_bit_ask_gc		1
 
 /**
@@ -64,8 +66,12 @@ unsigned char gcode_buff_pos = 0;
 /**	Functions */
 
 void init_core(void);
-void check_fill_buff(void); // I wonder, if we really need this function
+void check_buff(void);
 void ask_gc(void);
 void read_gc(void);
+
+/** Interrupt vectors */
+
+//ISR(USART_RXT_vect);
 
 #endif
