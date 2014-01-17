@@ -11,7 +11,7 @@
 #ifndef __CORE_H
 #define __CORE_H
 
-#include <avr/interrupt.h>
+#include "hal.h"
 
 /**
 *	Core status register
@@ -43,35 +43,11 @@ char unsigned glob_conf;
 char gcode_buff[_gcode_buff_line][_gcode_buff_size];
 unsigned char gcode_buff_pos = 0;
 
-/** Pin configuration */
-
-/// Motor section
-
-#define _pin_ddr_mo_x	0xff
-#define _pin_prt_mo_x	0xff
-#define	_pin_pin_mo_x	0xff
-
-#define _pin_ddr_mo_y	0xff
-#define _pin_prt_mo_y	0xff
-#define	_pin_pin_mo_y	0xff
-
-#define _pin_ddr_mo_z	0xff
-#define _pin_prt_mo_z	0xff
-#define	_pin_pin_mo_z	0xff
-
-#define _pin_ddr_mo_h	0xff
-#define _pin_prt_mo_h	0xff
-#define	_pin_pin_mo_h	0xff
-
 /**	Functions */
 
 void init_core(void);
 void check_buff(void);
 void ask_gc(void);
 void read_gc(void);
-
-/** Interrupt vectors */
-
-//ISR(USART_RXT_vect);
 
 #endif

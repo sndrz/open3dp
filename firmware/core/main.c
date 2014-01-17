@@ -9,6 +9,7 @@
 */
 
 #include "core.h"
+#include "hal.h"
 
 /**
 	@function main
@@ -19,6 +20,7 @@
 
 void main(void){
 
-		init_core();
+	init_mcu();
+	init_core();
 
 } // main
