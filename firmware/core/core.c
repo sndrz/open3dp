@@ -1,7 +1,7 @@
 #include "core.h"
 #include "gcode.h"
 
-void init_core(void){
+void init_core(){
 
 	/** Init configuration register */
 	sbi(glob_conf, _conf_bit_buff_awr);

@@ -45,7 +45,7 @@ unsigned char gcode_buff_pos = 0;
 
 /**	Functions */
 
-void init_core(void);
+void init_core();
 void check_buff(void);
 void ask_gc(void);
 void read_gc(void);

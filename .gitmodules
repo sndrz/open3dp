@@ -3,4 +3,4 @@
 	url = https://github.com/sndrz/kicad-lib.git
 [submodule "avr-toolbox"]
 	path = avr-toolbox
-	url = https://github.com/sndrz/avr-toolbox
+	url = https://github.com/sndrz/avr-toolbox.git

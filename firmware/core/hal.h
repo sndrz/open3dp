@@ -50,7 +50,7 @@
 
 /** Functions */
 
-void init_mcu(void);
+void init_mcu();
 
 /** Interrupt vectors */
 
