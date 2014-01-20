@@ -17,7 +17,7 @@ protected:
 	
 private slots:
 	void about();
-	void updateStatusBar();
+//	void updateStatusBar();
 	
 private:
 	void createStatusBar();

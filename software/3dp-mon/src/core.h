@@ -10,7 +10,7 @@ public:
 	_fetcher();
 	~_fetcher();
 	
-	loadGCode(char *filename);
+//	loadGCode(char *filename);
 }; // class _fetcher
 
 #endif

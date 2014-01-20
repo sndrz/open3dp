@@ -2,7 +2,7 @@
 
 #include "mwindow.h"
 
-int main(int argcm char *argv[]){
+int main(int argc, char *argv[]){
 	
 	QApplication app(argc, argv);
 	MainWindow mwindow;
