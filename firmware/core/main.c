@@ -2,6 +2,11 @@
 *
 *	A core controller firmware.
 *
+*	This is a central program, that controls 3D printer.
+*	It gets G-code from desktop, controls stepper motors
+*	drivers, temperature sensors and communicates with
+*	graphical co-controller.
+*
 *	Sergey Ivanov <sand.mrt@gmail.com>
 *
 *	GNU General Public License

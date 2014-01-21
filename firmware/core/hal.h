@@ -1,6 +1,20 @@
 ﻿#ifndef __HAL_H
 #define __HAL_H
 
+/**	open3dp :: hal.h
+*
+*	Hardware Abstract Layer
+*
+*	This file cuts hardware-based code from abstract one.
+*	Should be replaced for any other hardware project will
+*	possibly modifed for.
+*
+*	Sergey Ivanov <sand.mrt@gmail.com>
+*
+*	GNU General Public License
+*	http://www.gnu.org/licenses/gpl.html
+*/
+
 //#define F_CPU	100000000U
 
 #include <avr/io.h>
@@ -8,9 +22,9 @@
 //#include <avr/timer.h>
 
 /**
-*	Hardware Asbtract Layer area for AVR-TOOLBOX library
+*	HAL area for AVR-TOOLBOX library
 *
-*	All macros and functions from these includes below
+*	All macros and functions from these included files below
 *	should be redefined with similar headers for other
 *	architectures (if neccessary).
 */
