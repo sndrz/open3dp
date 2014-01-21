@@ -1,10 +1,18 @@
 HEADERS += \
     ../mwindow.h \
-    ../core.h
+    ../fetcher.h \
+    ../device.h
 
 SOURCES += \
     ../mwindow.cpp \
     ../main.cpp \
-    ../core.cpp
+    ../fetcher.cpp \
+    ../device.cpp
+
+
+
+
+
+
 
 
