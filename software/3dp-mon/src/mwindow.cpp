@@ -8,6 +8,7 @@ MainWindow::MainWindow(_fetcher *fetcher, _device *device){
         createActions();
         createStatusBar();
         createMenus();
+        createInterface();
 
 //	setWindowIcon(QIcon(""));
 }
@@ -35,6 +36,11 @@ void MainWindow::createActions(){
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setStatusTip(tr("Show the Qt library's about box"));
     connect(aboutQtAction, SIGNAL(triggered()), qApp, SLOT(aboutQt()));
+}
+
+void MainWindow::createInterface(){
+//    mwBufferList = new QListView;
+//    mwFrame = new QFrame;
 }
 
 void MainWindow::closeEvent(QCloseEvent *event){

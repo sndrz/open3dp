@@ -29,7 +29,11 @@ private:
         void createActions();
 	void createStatusBar();
         void createMenus();
+        void createInterface();
         bool exitConfirm();
+
+//        QFrame *mwFrame;
+//        QListView *mwBufferList;
 
         QMenu *fileMenu;
         QMenu *deviceMenu;

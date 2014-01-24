@@ -1,6 +1,10 @@
 #include "device.h"
 
+_device::_device(){
+    connected = false;
+}
+
 bool _device::isConnected(){
 
-    return false; // !dump return
+    return this->connected;
 }
