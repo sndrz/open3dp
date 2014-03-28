@@ -1,6 +1,6 @@
-update=25.09.2013 16:22:36
+update=27.03.2014 13:12:37
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=320
@@ -66,33 +66,13 @@ LibName7=lit/TO
 LibDir=../../../!kicad/packages
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
-LibDir=../../../!kicad/libs
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
+LibDir=../../../kicad-lib/libs
+NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -114,6 +94,3 @@ LibName13=speakers
 LibName14=transform
 LibName15=transist
 LibName16=power
-[cvpcb]
-version=1
-NetIExt=net
