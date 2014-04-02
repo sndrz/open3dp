@@ -1,6 +1,6 @@
-update=27.03.2014 13:12:37
+update=02.04.2014 12:39:51
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 PadDrlX=320
@@ -56,19 +56,16 @@ MaxLnkS=3
 ShowRat=0
 ShowMRa=1
 [pcbnew/libraries]
-LibName1=lit/7SEG
-LibName2=lit/CONN
-LibName3=lit/IC
-LibName4=lit/SENS
-LibName5=lit/SMD
-LibName6=lit/TERM
-LibName7=lit/TO
-LibDir=../../../!kicad/packages
+LibName1=7SEG
+LibName2=CONN
+LibName3=IC
+LibName4=SENS
+LibName5=SMD
+LibName6=SWITCH
+LibName7=TERM
+LibDir=../../../kicad-lib/packages/lit
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
 [eeschema]
 version=1
 LibDir=../../../kicad-lib/libs
@@ -94,3 +91,6 @@ LibName13=speakers
 LibName14=transform
 LibName15=transist
 LibName16=power
+[cvpcb]
+version=1
+NetIExt=net
