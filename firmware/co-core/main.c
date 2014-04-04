@@ -1,4 +1,4 @@
-/**	open3dp :: graph.c
+/**	open3dp :: co-core :: main.c
 *
 *	A graphical co-controller firmware.
 *	Main program.
@@ -9,9 +9,11 @@
 *	http://www.gnu.org/licenses/gpl.html
 */
 
-//#include "st7920.h"
+#include "hal.h"
 
 void main(void){
+
+	mcu_init();
 
 	/// Main loop
 	while (1) {
