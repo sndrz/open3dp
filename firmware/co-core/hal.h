@@ -15,6 +15,8 @@
 *	http://www.gnu.org/licenses/gpl.html
 */
 
+/** Device AVR ATmega8 */
+
 //#define F_CPU	100000000U
 
 #include <avr/io.h>
@@ -55,11 +57,15 @@
 //#include "base.h"
 //#include "st7920.h"
 
-/** Function wrappers */
+/** Wrappers */
 
 /// st7920.h
 
+#define _display_res_x	_st7920_res_x
+#define _display_res_y	_st7920_res_y
+
 void display_init(){ st7920_init(); };
+void display_clear(){};
 
 /** End of AVR-toolbox HAL area */
 

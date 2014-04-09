@@ -10,10 +10,13 @@
 */
 
 #include "hal.h"
+#include "interface.h"
 
 void main(void){
 
 	mcu_init();
+	display_init();
+	display_setup();
 
 	/// Main loop
 	while (1) {
