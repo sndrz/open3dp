@@ -112,17 +112,6 @@ F 3 "" H 13200 9250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
-U 1 1 575024B5
-P 13300 1300
-F 0 "#PWR?" H 13300 1200 50  0001 C CNN
-F 1 "+5V" V 13300 1400 50  0000 C CNN
-F 2 "" H 13300 1300 60  0000 C CNN
-F 3 "" H 13300 1300 60  0000 C CNN
-	1    13300 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 57502B18
 P 13300 5250
@@ -150,22 +139,11 @@ Connection ~ 13200 9000
 Wire Wire Line
 	13100 1600 14250 1600
 Wire Wire Line
-	13300 1300 13300 1700
+	13300 1300 13300 1900
 Wire Wire Line
 	13300 1700 13100 1700
 Connection ~ 13300 1600
 NoConn ~ 13100 1900
-$Comp
-L +5V #PWR?
-U 1 1 57502DB4
-P 13200 6400
-F 0 "#PWR?" H 13200 6300 50  0001 C CNN
-F 1 "+5V" V 13200 6500 50  0000 C CNN
-F 2 "" H 13200 6400 60  0000 C CNN
-F 3 "" H 13200 6400 60  0000 C CNN
-	1    13200 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13000 6600 13200 6600
 Wire Wire Line
@@ -334,21 +312,21 @@ Wire Wire Line
 Connection ~ 3400 10350
 Text Notes 1950 9200 0    60   ~ 0
 Display connectors
-Text GLabel 10950 8200 0    60   UnSpc ~ 0
+Text GLabel 10300 8450 0    60   UnSpc ~ 0
 DSP_RS
-Text GLabel 10950 8300 0    60   UnSpc ~ 0
+Text GLabel 10300 8550 0    60   UnSpc ~ 0
 DSP_RW
-Text GLabel 10950 8400 0    60   UnSpc ~ 0
+Text GLabel 10300 8650 0    60   UnSpc ~ 0
 DSP_E
-Text GLabel 10950 8500 0    60   UnSpc ~ 0
+Text GLabel 10300 8750 0    60   UnSpc ~ 0
 DSP_RST
-Text GLabel 10950 8600 0    60   UnSpc ~ 0
+Text GLabel 10300 8850 0    60   UnSpc ~ 0
 DSP_DB2
-Text GLabel 10950 8700 0    60   UnSpc ~ 0
+Text GLabel 10300 8950 0    60   UnSpc ~ 0
 DSP_DB1
-Text GLabel 10950 8800 0    60   UnSpc ~ 0
+Text GLabel 10300 9050 0    60   UnSpc ~ 0
 DSP_DB0
-Text GLabel 10950 8900 0    60   UnSpc ~ 0
+Text GLabel 10300 9150 0    60   UnSpc ~ 0
 DSP_DB3
 $Comp
 L encoder-btn BR?
@@ -452,9 +430,9 @@ Text GLabel 3000 7850 2    60   UnSpc ~ 0
 BTN_2
 Connection ~ 2850 7850
 Connection ~ 2650 7300
-Text GLabel 10350 8200 0    60   UnSpc ~ 0
+Text GLabel 9700 8450 0    60   UnSpc ~ 0
 BTN_1
-Text GLabel 10350 8300 0    60   UnSpc ~ 0
+Text GLabel 9700 8550 0    60   UnSpc ~ 0
 BTN_2
 Text GLabel 1750 7300 0    60   UnSpc ~ 0
 BTN_1A
@@ -472,13 +450,13 @@ Wire Wire Line
 	1750 7850 1950 7850
 Wire Wire Line
 	1750 8050 1950 8050
-Text GLabel 10350 8400 0    60   UnSpc ~ 0
+Text GLabel 9700 8650 0    60   UnSpc ~ 0
 BTN_1A
-Text GLabel 10350 8500 0    60   UnSpc ~ 0
+Text GLabel 9700 8750 0    60   UnSpc ~ 0
 BTN_1B
-Text GLabel 10350 8600 0    60   UnSpc ~ 0
+Text GLabel 9700 8850 0    60   UnSpc ~ 0
 BTN_2A
-Text GLabel 10350 8700 0    60   UnSpc ~ 0
+Text GLabel 9700 8950 0    60   UnSpc ~ 0
 BTN_2B
 Text Notes 1400 6900 0    60   ~ 0
 Encoder/buttons block
@@ -544,7 +522,7 @@ $EndComp
 Wire Wire Line
 	3850 4700 3950 4700
 Wire Wire Line
-	3950 5400 3950 4700
+	3950 4700 3950 5400
 Wire Wire Line
 	1950 4500 1800 4500
 Wire Wire Line
@@ -860,4 +838,258 @@ Wire Wire Line
 	14250 1600 14250 1850
 Text Notes 1950 4150 0    60   ~ 0
 USB connector
+$Comp
+L RES R?
+U 1 1 5759798B
+P 10800 7450
+F 0 "R?" H 10800 7550 60  0000 C CNN
+F 1 "RES" H 10800 7450 60  0000 C CNN
+F 2 "" H 10800 7450 60  0000 C CNN
+F 3 "" H 10800 7450 60  0000 C CNN
+	1    10800 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 57597D7E
+P 10800 6400
+F 0 "#PWR?" H 10800 6300 50  0001 C CNN
+F 1 "+5V" V 10800 6500 50  0000 C CNN
+F 2 "" H 10800 6400 60  0000 C CNN
+F 3 "" H 10800 6400 60  0000 C CNN
+	1    10800 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 6400 10800 7200
+Wire Wire Line
+	10800 7700 10800 8100
+Wire Wire Line
+	10500 8100 11600 8100
+Text GLabel 10500 8100 0    60   UnSpc ~ 0
+ISP_RST
+Connection ~ 10800 8100
+$Comp
+L RES R?
+U 1 1 57599724
+P 13300 2150
+F 0 "R?" H 13300 2250 60  0000 C CNN
+F 1 "RES" H 13300 2150 60  0000 C CNN
+F 2 "" H 13300 2150 60  0000 C CNN
+F 3 "" H 13300 2150 60  0000 C CNN
+	1    13300 2150
+	0    1    1    0   
+$EndComp
+Text GLabel 13500 2500 2    60   UnSpc ~ 0
+ISP_RST
+Connection ~ 13300 1700
+Wire Wire Line
+	13100 2500 13500 2500
+Wire Wire Line
+	13300 2400 13300 2500
+Connection ~ 13300 2500
+Text GLabel 13300 1300 1    60   UnSpc ~ 0
+ISP_PWR1
+Text GLabel 13200 6400 1    60   UnSpc ~ 0
+ISP_PWR2
+Text GLabel 2650 2350 2    60   UnSpc ~ 0
+ISP_RST
+Text GLabel 11400 6900 0    60   UnSpc ~ 0
+ISP_MOSI
+Text GLabel 11400 7000 0    60   UnSpc ~ 0
+ISP_MISO
+Text GLabel 11400 7100 0    60   UnSpc ~ 0
+ISP_SCK
+Wire Wire Line
+	11400 6900 11600 6900
+Wire Wire Line
+	11400 7000 11600 7000
+Wire Wire Line
+	11400 7100 11600 7100
+Text GLabel 1850 2350 0    60   UnSpc ~ 0
+ISP_MOSI
+Text GLabel 1850 2450 0    60   UnSpc ~ 0
+ISP_MISO
+Text GLabel 2650 2450 2    60   UnSpc ~ 0
+ISP_SCK
+Text GLabel 11500 3000 0    60   UnSpc ~ 0
+ISP_MOSI
+Text GLabel 11500 3100 0    60   UnSpc ~ 0
+ISP_MISO
+Text GLabel 11500 3200 0    60   UnSpc ~ 0
+ISP_SCK
+Wire Wire Line
+	11500 3000 11700 3000
+Wire Wire Line
+	11500 3100 11700 3100
+Wire Wire Line
+	11500 3200 11700 3200
+$Comp
+L PIN_4X2 PIN?
+U 1 1 575ABE4C
+P 2250 2400
+F 0 "PIN?" H 2300 2700 60  0000 C CNN
+F 1 "PIN_4X2" H 2300 2150 60  0000 C CNN
+F 2 "" H 2250 2400 60  0000 C CNN
+F 3 "" H 2250 2400 60  0000 C CNN
+	1    2250 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 2100 0    60   UnSpc ~ 0
+ISP_PWR2
+Text GLabel 3050 1900 0    60   UnSpc ~ 0
+ISP_PWR1
+$Comp
+L +5V #PWR?
+U 1 1 575AE449
+P 1850 2250
+F 0 "#PWR?" H 1850 2150 50  0001 C CNN
+F 1 "+5V" V 1850 2350 50  0000 C CNN
+F 2 "" H 1850 2250 60  0000 C CNN
+F 3 "" H 1850 2250 60  0000 C CNN
+	1    1850 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2250 2500 2250
+Wire Wire Line
+	2500 2250 2500 2000
+Wire Wire Line
+	2500 2000 3150 2000
+Wire Wire Line
+	3050 1900 3150 1900
+Wire Wire Line
+	3050 2100 3150 2100
+Wire Wire Line
+	1850 2250 2150 2250
+$Comp
+L GND #PWR?
+U 1 1 575AFC69
+P 2000 2750
+F 0 "#PWR?" H 2000 2850 50  0001 C CNN
+F 1 "GND" H 2000 2600 50  0000 C CNN
+F 2 "" H 2000 2750 60  0000 C CNN
+F 3 "" H 2000 2750 60  0000 C CNN
+	1    2000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2550 2000 2550
+Wire Wire Line
+	2000 2550 2000 2750
+Text GLabel 1850 2100 0    60   UnSpc ~ 0
+ISP_PWR1
+Wire Wire Line
+	1850 2100 2000 2100
+Wire Wire Line
+	2000 2100 2000 2250
+Connection ~ 2000 2250
+NoConn ~ 2400 2550
+Wire Wire Line
+	1850 2350 2150 2350
+Wire Wire Line
+	1850 2450 2150 2450
+Wire Wire Line
+	2400 2350 2650 2350
+Wire Wire Line
+	2400 2450 2650 2450
+Text Notes 1750 1900 0    60   ~ 0
+ISP connector
+$Comp
+L PIN_3X1 PIN?
+U 1 1 575BABD7
+P 3150 1900
+F 0 "PIN?" H 3250 2000 60  0000 C CNN
+F 1 "PIN_3X1" H 3350 1600 60  0000 C CNN
+F 2 "" H 3100 1900 60  0000 C CNN
+F 3 "" H 3100 1900 60  0000 C CNN
+	1    3150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_3X1 PIN?
+U 1 1 575BD7F3
+P 5300 2050
+F 0 "PIN?" H 5400 2150 60  0000 C CNN
+F 1 "PIN_3X1" H 5500 1750 60  0000 C CNN
+F 2 "" H 5250 2050 60  0000 C CNN
+F 3 "" H 5250 2050 60  0000 C CNN
+	1    5300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 575BDA9B
+P 4900 2050
+F 0 "#PWR?" H 4900 1950 50  0001 C CNN
+F 1 "+5V" V 4900 2150 50  0000 C CNN
+F 2 "" H 4900 2050 60  0000 C CNN
+F 3 "" H 4900 2050 60  0000 C CNN
+	1    4900 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575BE415
+P 4900 2400
+F 0 "#PWR?" H 4900 2500 50  0001 C CNN
+F 1 "GND" H 4900 2250 50  0000 C CNN
+F 2 "" H 4900 2400 60  0000 C CNN
+F 3 "" H 4900 2400 60  0000 C CNN
+	1    4900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2050 5300 2050
+Wire Wire Line
+	4900 2150 5300 2150
+Wire Wire Line
+	4900 2150 4900 2400
+NoConn ~ 5300 2250
+Text Notes 4400 1700 0    60   ~ 0
+Power input
+$Comp
+L LED LED?
+U 1 1 575C1942
+P 5550 1200
+F 0 "LED?" H 5500 1400 60  0000 C CNN
+F 1 "LED" H 5550 950 60  0000 C CNN
+F 2 "" H 5550 1200 60  0000 C CNN
+F 3 "" H 5550 1200 60  0000 C CNN
+	1    5550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R?
+U 1 1 575C1A07
+P 5100 1650
+F 0 "R?" H 5100 1750 60  0000 C CNN
+F 1 "RES" H 5100 1650 60  0000 C CNN
+F 2 "" H 5100 1650 60  0000 C CNN
+F 3 "" H 5100 1650 60  0000 C CNN
+	1    5100 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575C1B8B
+P 6000 2400
+F 0 "#PWR?" H 6000 2500 50  0001 C CNN
+F 1 "GND" H 6000 2250 50  0000 C CNN
+F 2 "" H 6000 2400 60  0000 C CNN
+F 3 "" H 6000 2400 60  0000 C CNN
+	1    6000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1900 5100 2050
+Connection ~ 5100 2050
+Wire Wire Line
+	5100 1400 5100 1200
+Wire Wire Line
+	5100 1200 5300 1200
+Wire Wire Line
+	5800 1200 6000 1200
+Wire Wire Line
+	6000 1200 6000 2400
 $EndSCHEMATC
