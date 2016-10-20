@@ -1,4 +1,4 @@
-update=02.06.2016 9:01:52
+update=20.10.2016 16:44:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,21 +27,23 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../kicad-lib/libs
+LibDir=../../../kicad-lib/libs
 [eeschema/libraries]
-LibName1=D:/user/sivanov37/git/kicad-lib/libs/amp
-LibName2=D:/user/sivanov37/git/kicad-lib/libs/avr
-LibName3=D:/user/sivanov37/git/kicad-lib/libs/buttons
-LibName4=D:/user/sivanov37/git/kicad-lib/libs/connectors
-LibName5=D:/user/sivanov37/git/kicad-lib/libs/dc-dc
-LibName6=D:/user/sivanov37/git/kicad-lib/libs/displays
-LibName7=D:/user/sivanov37/git/kicad-lib/libs/drivers
-LibName8=D:/user/sivanov37/git/kicad-lib/libs/logic
-LibName9=D:/user/sivanov37/git/kicad-lib/libs/optic
-LibName10=D:/user/sivanov37/git/kicad-lib/libs/passive
-LibName11=D:/user/sivanov37/git/kicad-lib/libs/power
-LibName12=D:/user/sivanov37/git/kicad-lib/libs/rtc
-LibName13=D:/user/sivanov37/git/kicad-lib/libs/sensors
-LibName14=D:/user/sivanov37/git/kicad-lib/libs/speakers
-LibName15=D:/user/sivanov37/git/kicad-lib/libs/transform
-LibName16=D:/user/sivanov37/git/kicad-lib/libs/transist
+LibName1=D:/home/sivanov37/git/kicad-lib/libs/amp
+LibName2=D:/home/sivanov37/git/kicad-lib/libs/avr
+LibName3=D:/home/sivanov37/git/kicad-lib/libs/buttons
+LibName4=D:/home/sivanov37/git/kicad-lib/libs/connectors
+LibName5=D:/home/sivanov37/git/kicad-lib/libs/dc-dc
+LibName6=D:/home/sivanov37/git/kicad-lib/libs/displays
+LibName7=D:/home/sivanov37/git/kicad-lib/libs/drivers
+LibName8=D:/home/sivanov37/git/kicad-lib/libs/logic
+LibName9=D:/home/sivanov37/git/kicad-lib/libs/mems
+LibName10=D:/home/sivanov37/git/kicad-lib/libs/optic
+LibName11=D:/home/sivanov37/git/kicad-lib/libs/passive
+LibName12=D:/home/sivanov37/git/kicad-lib/libs/power
+LibName13=D:/home/sivanov37/git/kicad-lib/libs/rtc
+LibName14=D:/home/sivanov37/git/kicad-lib/libs/sensors
+LibName15=D:/home/sivanov37/git/kicad-lib/libs/speakers
+LibName16=D:/home/sivanov37/git/kicad-lib/libs/transform
+LibName17=D:/home/sivanov37/git/kicad-lib/libs/transist
+LibName18=D:/home/sivanov37/git/kicad-lib/libs/wireless
