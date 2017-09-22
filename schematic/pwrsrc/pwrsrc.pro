@@ -1,6 +1,6 @@
-update=27.03.2014 11:23:54
+update=19.09.2017 14:15:25
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -47,11 +47,6 @@ LibName12=transf
 [eeschema]
 version=1
 LibDir=../../../kicad-lib/libs
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=amp
 LibName2=avr
@@ -61,11 +56,13 @@ LibName5=dc-dc
 LibName6=displays
 LibName7=drivers
 LibName8=logic
-LibName9=optic
-LibName10=passive
-LibName11=rtc
-LibName12=sensors
-LibName13=speakers
-LibName14=transform
-LibName15=transist
-LibName16=power
+LibName9=mems
+LibName10=optic
+LibName11=passive
+LibName12=power
+LibName13=rtc
+LibName14=sensors
+LibName15=speakers
+LibName16=transform
+LibName17=transist
+LibName18=wireless
